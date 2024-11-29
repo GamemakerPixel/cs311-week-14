@@ -2,7 +2,7 @@
 import { useState, useRef } from "react"
 
 
-export default function Home() {
+export default function Page() {
   const initialInputText = "Enter a number to begin!"
   const [userInput, setUserInput] = useState<string>(initialInputText);
   const numberInput = useRef<InputHTMLElement>()
